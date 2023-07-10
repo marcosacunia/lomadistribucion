@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
 .navbar-logo {
   width: 110px;
   height: auto;
@@ -15,4 +21,27 @@ footer {
   .small-image {
     max-width: 100%;
     height: auto;
+  }
+  .header {
+    background-color: #F8F9FA;
+    padding: 40px;
+    text-align: center;
+    color: #6C757D;
+    font-size: 32px;}
+body{
+    background-color: antiquewhite;
+}
+.navbar {
+    
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .intro-text {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #000000;}
+  .navbar-custom .navbar-nav .nav-link{
+    color: white;
   }
